@@ -1,6 +1,8 @@
 # Fix-WinVerifyTrustSignatureValidationVuln
 Fix WinVerifyTrust Signature Validation Vulnerability, CVE-2013-3900[^1], QID-378332[^2]
 
+_**This Fix is intended for 64-bit Windows Computers**_
+
 This PowerShell code is one way to fix the vulnerability - aside from creating a .reg file and using ```reg import <file.reg>``` to import the new registry key.
 
 Full Packaged Script:<br>
